@@ -4,7 +4,7 @@ const port = 3000;
 
 // Basic GET endpoint
 app.get('/', (req, res) => {
-  res.json({ message: 'Hello, world!' });
+  res.json({ message: 'Hello, Ravi How are you!' });
 });
 
 // Start the server
