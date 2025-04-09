@@ -1,0 +1,23 @@
+{
+  "name": "jenkin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaviPraeclarum/jenkin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaviPraeclarum/jenkin/issues"
+  },
+  "homepage": "https://github.com/RaviPraeclarum/jenkin#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
