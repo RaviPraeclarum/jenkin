@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
   res.json({ message: 'Hello, Ravi How are you!' });
 });
 
+app.get('/app', (req, res) => {
+  res.send(`Hello, Server running on t http://localhost:${port}` });
+});
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
