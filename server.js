@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/app', (req, res) => {
-  res.send(`Hello, Server running on http://localhost:${port}`});
+  res.send(`Hello, Server running on http://localhost:${port}`);
 });
 
 // Start the server
